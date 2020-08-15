@@ -1,0 +1,243 @@
+\documentclass{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{calc}
+\newcommand\alignedoverset[2]{
+  % #1 = over
+  % #2 = under
+  \settowidth\oversetwidth{$\overset{#1}{#2}$}
+  \settowidth\underwidth{$#2$}
+  \setlength\oversetwidth{\oversetwidth-\underwidth}
+  \hspace{.5\oversetwidth}
+  &
+  \settowidth\oversetwidth{$\overset{#1}{#2}$}
+  \settowidth\underwidth{$#2$}
+  \setlength\oversetwidth{\oversetwidth-\underwidth}
+  \hspace{-.5\oversetwidth}
+  \overset{#1}{#2}
+}
+%\usepackage{fancyhdr} % Custom headers and footers
+%\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+%\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+%\fancyfoot[L]{} % Empty left footer
+%\fancyfoot[C]{} % Empty center footer
+%%\fancyfoot[R]{\thepage} % Page numbering for right footer
+%\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+%\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+%\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{tkz-euclide}
+\usetkzobj{all}
+\cfoot{\thepage\ of \pageref{LastPage}}
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+\newcommand{\vstretch}[1]{\vspace{\stretch{#1}}}
+\newcommand{\ds}{\displaystyle}
+\renewcommand{\solutiontitle}{\noindent\textbf{}\par\noindent}
+\title{	
+\normalfont \normalsize 
+\textsc{Math 1080: Calculus of One Variable II, Clemson University} \\ [25pt] % Your name, university, class
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge Syllabus Quiz\\ % The assignment title
+\horrule{0.5pt} \\[0.4cm] % Thick bottom horizontal rule
+}
+
+\author{Due Date:} % The due date
+
+\date{\normalsize August 25th at 11:59 pm EDT} % A custom date
+\SolutionEmphasis{\color{blue}}
+\begin{document}
+\addpoints
+\unframedsolutions
+\maketitle % Print the title
+%\printanswers
+\begin{flushleft}
+\begin{tabular}{l l}
+Name: \rule{3.2in}{.01cm}  
+\end{tabular}
+\end{flushleft}
+
+%----------------------------------------------------------------------------------------
+%	Directions
+%----------------------------------------------------------------------------------------
+\begin{center}
+\section*{\textbf{Directions:}}
+\end{center}
+Read the course and section syllabus and answer the following questions. Submit your answers to Canvas by using a scanning app (e.g Camscanner or Adobe Scan) by the due date above.\\
+
+\begin{center}
+\fbox{\fbox{\parbox{5.5in}{\centering
+By submitting the Syllabus Quiz, you affirm that you have read the course and section syllabus in their entirety and that
+you agree to follow the policies described in the syllabi.}}}
+\end{center}
+
+%\begin{center}
+%\gradetable[h][questions]
+%\end{center}
+\newpage
+\begin{questions}
+\question Who is your instructor this semester? What is their email address?
+\begin{solution}[\stretch{1}]
+%Left blank; solution command is here for even spacing
+\end{solution}
+
+\question When are your instructor's office hours? 
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\question Who is the course coordinator for Math 1080? What is her email address?
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\question Summarize the course modality for the semester.
+\begin{solution}[\stretch{2}]
+
+\end{solution}
+
+\newpage
+
+\question Summarize the course structure for the semester.
+\begin{solution}[\stretch{2}]
+
+\end{solution}
+
+\question What should you do if the instructor's connection is lost during a virtual class?
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\question How should you inform your instructor of any absence during the semester?
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\question What is defined as an ``excessive" number of absences? Can your instructor drop you from the course if you have an excessive number of absences?
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\newpage
+
+\question List down some of the required technology that you need for the semester.
+\begin{solution}[\stretch{2}]
+
+\end{solution}
+
+\question True or false: You are allowed calculators during the common exams.
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\question When are the CIQ's due? Are you allowed multiple attempts?%I am using the abbreivation from the course syllabus
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\question How often will you have a quiz? How will it be proctored?
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\newpage
+
+\question Summarize the late work policies for LAs, CIQs, quizzes, and MLM assignments?
+\begin{solution}[\stretch{2}]
+
+\end{solution}
+
+\question What percent of the CIQ, LA, and quizzes will be dropped each at the end of the semester? How many MLM assignments will be dropped at the end of the semester?
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+
+\question How may common exams are there this semester?
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\question List down the dates and times for the common exams. 
+\begin{solution}[\stretch{2}]
+
+\end{solution}
+
+\question When is the final exam scheduled?
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\newpage
+
+\question How will the exams be proctored?
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\question \textbf{For Exam 1 only}, what should you do if the exam date conflicts with your move-in time? 
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\question What grade will you receive if you have an unexcused absence from a common exam?
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\question True or false: The final exam can replace your lowest test score?
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\question Summarize what you should do if you have a question about exam grading. 
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\newpage
+
+\question Summarize the criteria you must meet in order to earn a passing grade for the course. What happens if you do not meet the criteria?
+\begin{solution}[\stretch{2}]
+
+\end{solution}
+
+\question How will your final grade be calculated if you satisfy the criteria to pass?
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\question True or false: instructors will take points off for improper notation?
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\newpage
+
+\question Summarize the COVID-19 policies for in-person classes? What happens if a student refuses to wear a face covering?
+\begin{solution}[\stretch{2}]
+
+\end{solution}
+
+\question What will happen if you post any assignment or test questions to sites like Chegg or CourseHero?
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\question If you have test accommodations, when should you submit your letter of accommodation to your instructor?
+\begin{solution}[\stretch{1}]
+
+\end{solution}
+
+\end{questions}
+\end{document}
